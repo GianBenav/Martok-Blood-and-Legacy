@@ -1,22 +1,20 @@
 #pragma once
 
+#include <map>
+#include <string>
+
 class Recursos
 {
 public:
 
-    int madera = 0;
-    int piedra = 0;
-    int hierro = 0;
-    int carbon = 0;
+    std::map<std::string, int> cantidad;
 
-    int oro = 0;
-    int plata = 0;
+    Recursos();
 
-    int comida = 0;
-    int trigo = 0;
+    void agregar(const std::string& recurso, int cantidad);
+    bool consumir(const std::string& recurso, int cantidad);
 
-    int cuero = 0;
-    int arcilla = 0;
+    int obtener(const std::string& recurso) const;
 
     void mostrarRecursos() const;
 };
