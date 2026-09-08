@@ -144,6 +144,36 @@ Recursos::Recursos()
     cantidad["Aceite"] = 0;
 
     cantidad["Ceramica"] = 0;
+
+
+// ========================================
+// ALIMENTOS DE ORIGEN ANIMAL
+// ========================================
+
+cantidad["Carne de Vaca"] = 0;
+cantidad["Carne de Cerdo"] = 0;
+cantidad["Carne de Oveja"] = 0;
+cantidad["Carne de Cabra"] = 0;
+cantidad["Carne de Caballo"] = 0;
+cantidad["Carne de Pollo"] = 0;
+cantidad["Carne de Pato"] = 0;
+cantidad["Carne de Ganso"] = 0;
+
+cantidad["Carne de Conejo"] = 0;
+cantidad["Carne de Ciervo"] = 0;
+cantidad["Carne de Jabali"] = 0;
+cantidad["Carne de Alce"] = 0;
+cantidad["Carne de Bisonte"] = 0;
+cantidad["Carne de Oso"] = 0;
+
+cantidad["Pescado"] = 0;
+cantidad["Mariscos"] = 0;
+
+cantidad["Huevos"] = 0;
+cantidad["Leche"] = 0;
+cantidad["Queso"] = 0;
+cantidad["Mantequilla"] = 0;
+cantidad["Miel"] = 0;
 }
 
 
